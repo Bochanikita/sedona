@@ -1,5 +1,11 @@
+/*! warning */
+/*? quastion */ 
+/** important */
+/*todo need to do */
+
 /* Variables */
 
+/** Используется для применения свойств к корневому элементу */
 :root {
     --basic-black: #000000;
     --basic-brown: #766357;
@@ -8,3 +14,18 @@
     --basic-white: #FFFFFF;
 }
 
+body {
+    min-width: 1220;
+    margin: 0;
+    padding: 0;
+    /*? Проверить googlewebfontshelper.com */
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    color: var(--basic-black);
+    text-transform: uppercase;
+    background-color: var(--basic-white);
+    background-position: top center;
+    background-repeat: no-repeat;
+}
