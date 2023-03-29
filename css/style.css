@@ -14,6 +14,7 @@
     --basic-white: #FFFFFF;
 }
 
+/** Используется для примения свояйств к body */
 body {
     min-width: 1220;
     margin: 0;
@@ -27,5 +28,42 @@ body {
     text-transform: uppercase;
     background-color: var(--basic-white);
     background-position: top center;
+    background-repeat: no-repeat;
+}
+
+/** Чтобы ссылки не выделялись */
+a {
+    text-decoration: none;
+}
+
+/** Чтобы картинки не вылезали */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Основная навигация */
+
+.main-navigation {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--basic-black);
+    background-color: var(--basic-white);
+}
+
+.site-navigation {
+    list-style: none;
+}
+
+.site-navigation a {
+    color: var(--basic-black);
+}
+
+/* Основная часть сайта */
+
+.title {
+    background-image: url("../img/background-photo-index.jpg");
+    background-position: left;
     background-repeat: no-repeat;
 }
