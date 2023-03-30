@@ -10,6 +10,7 @@
     --basic-black: #000000;
     --basic-brown: #766357;
     --basic-blue: #81B3D2;
+    --basic-dark-grey: #333333;
     --basic-gray: #EEEEEE;
     --basic-white: #FFFFFF;
 }
@@ -64,6 +65,98 @@ img {
 
 .title {
     background-image: url("../img/background-photo-index.jpg");
+    /*! Возможно придется поменять */
     background-position: left;
     background-repeat: no-repeat;
+}
+
+.description .sedona-description {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--basic-black);
+    text-align: center;
+}
+
+.description .sedona-reason {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: var(--basic-dark-grey);
+    text-align: center;
+}
+
+.features-list {
+    list-style: none;
+}
+
+.features-item-title,
+.features-item {
+    text-align: center;
+}
+
+.features-item-title {
+    background-color: var(--basic-blue);
+    color: var(--basic-white);
+}
+
+.features-item-title h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.features-item-title p {
+    font-weight: 400;
+}
+
+.features-item h3 {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+.features-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--basic-dark-grey);
+}
+
+.down-group {
+    background-color: var(--basic-gray);
+}
+
+.offer {
+    text-align: center;
+}
+
+.offer h3 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 21px;
+    color: var(--basic-black);
+}
+
+.offer p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--basic-dark-grey);
+}
+
+.search-form h3 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--basic-white);
+    background-color: var(--basic-brown);
+}
+
+.search-item label{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    color: var(--basic-black);
 }
