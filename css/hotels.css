@@ -110,7 +110,7 @@ a {
 /** Checkbox */
 .hotels-filter {
     height: 217px;
-    background-image: url(/img/hotels/bg-filter.jpg);
+    background-image: url(../img/hotels/bg-filter.jpg);
     position: relative;
 }
 .logo-header {
@@ -119,7 +119,7 @@ a {
     top: -56px;
 }
 .filters {
-    background-image: url(/img/hotels/bg-filter.jpg);
+    background-image: url(../img/hotels/bg-filter.jpg);
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
